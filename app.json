@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "BoostByCongs",
-    "slug": "BoostByCongs",
+    "slug": "boostbycongs",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/adaptive-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +21,26 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.noobdevelova.boostbycongs"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "17f814d6-a0cb-4a97-8d80-662af198649a"
+      }
+    },
+    "owner": "noobdevelova",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/17f814d6-a0cb-4a97-8d80-662af198649a"
     }
   }
 }
